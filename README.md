@@ -6,7 +6,7 @@
 # Backup/Rename
 [ -d $HOME/.config/tmux ] mv $HOME/.config/tmux $HOME/.config/tmux.bak
 # Clone
-git clone https://github.com/startup-dotfiles/tmux $HOME/.config/tmux
+git clone https://github.com/startup-dotfiles/terminal-multiplexer.git $HOME/.config/tmux
 
 # These files can be deleted after installation.
 rm -r README.md LICENSE assets/ .git/ .gitignore
@@ -28,7 +28,7 @@ rm -r README.md LICENSE assets/ .git/ .gitignore
 - Enhancement:
   - [tmux-yank](https://github.com/tmux-plugins/tmux-yank) (depndencies: wl-clipboard)
   - [tmux-menus](https://github.com/jaclu/tmux-menus)
-- Search & Jump
+- Search & Jump:
   - [tmux-fzf-url](https://github.com/wfxr/tmux-fzf-url) (dependencies: fzf)
   - [tmux-fzf-links](https://github.com/alberti42/tmux-fzf-links) (dependencies: fzf)
 
