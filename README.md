@@ -24,7 +24,7 @@ rm -r README.md LICENSE .git/ .gitignore
   - [tmux-menus](https://github.com/jaclu/tmux-menus)
 - Search & Jump
   - [tmux-fzf-url](https://github.com/wfxr/tmux-fzf-url) (dependencies: fzf)
-    [tmux-fzf-links](https://github.com/alberti42/tmux-fzf-links) (dependencies: fzf)
+  - [tmux-fzf-links](https://github.com/alberti42/tmux-fzf-links) (dependencies: fzf)
 
 ## Keybindings
 
