@@ -1,5 +1,7 @@
 # Dotfiles --- tmux terminal multiplexer
 
+![Screenshot](./assets/tmux.png)
+
 ```sh
 # Backup/Rename
 [ -d $HOME/.config/tmux ] mv $HOME/.config/tmux $HOME/.config/tmux.bak
@@ -7,7 +9,7 @@
 git clone https://github.com/startup-dotfiles/tmux $HOME/.config/tmux
 
 # These files can be deleted after installation.
-rm -r README.md LICENSE .git/ .gitignore
+rm -r README.md LICENSE assets/ .git/ .gitignore
 ```
 
 ## Installed Plugins
