@@ -12,6 +12,10 @@ rm -r README.md LICENSE .git/ .gitignore
 
 ## Installed Plugins
 
+> [!NOTE]
+> If this is your first time installing, starting tmux will automatically install `tpm` to `$HOME/.local/share/tmux`.
+> Then press `M-w` to install the plugins.
+
 - Plugin Manager:
   - [tpm](https://github.com/tmux-plugins/tpm)
 - Theme:
@@ -28,7 +32,7 @@ rm -r README.md LICENSE .git/ .gitignore
 
 ## Keybindings
 
-- Prefix key: <kbd>M-a</kbd> (default: C-b)
+- Prefix key: <kbd>M-w</kbd> (default: C-b) (see [basic.conf](./basic.conf))
 
 | Action                    | Key                                        |
 | :------------------------ | :----------------------------------------- |
@@ -36,3 +40,6 @@ rm -r README.md LICENSE .git/ .gitignore
 | Update plugins            |  `prefix` + <kbd>U</kbd>                   |
 | Remove/uninstall plugins  |  `prefix` + <kbd>alt</kbd> + <kbd>u</kbd>  |
 | Reload tmux               |  `prefix` + <kbd>r</kbd>                   |
+| Open the menu             |  `prefix` + <kbd>\\</kbd>                  |
+
+See [keybindings.conf](./keybindins.conf).
