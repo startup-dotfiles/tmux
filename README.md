@@ -1,4 +1,4 @@
-# Dotfiles --- tmux terminal multiplexer
+# Dotvault --- tmux terminal multiplexer
 
 ![Screenshot](./assets/tmux.png)
 
@@ -6,7 +6,7 @@
 # Backup/Rename
 [ -d $HOME/.config/tmux ] mv $HOME/.config/tmux $HOME/.config/tmux.bak
 # Clone
-git clone https://github.com/startup-dotfiles/terminal-multiplexer.git $HOME/.config/tmux
+git clone https://github.com/dotvault/terminal-multiplexer.git $HOME/.config/tmux
 
 # These files can be deleted after installation.
 rm -r README.md LICENSE assets/ .git/ .gitignore
